@@ -31,7 +31,7 @@ io.on('connection', (socket) => {
     socket.broadcast.emit('newMessage', generateMessage(newMesssage.from, newMesssage.text));
 
     callback('Message is received');
-    console.log(callback.toString());
+   // console.log(callback.toString());
   })
 
 
